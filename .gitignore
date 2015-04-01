@@ -1,0 +1,14 @@
+.settings
+target
+classpath
+.classpath
+project
+.project
+
+*.iml
+.idea
+.swp
+.swo
+hibernate.
+Makefile
+*.swp

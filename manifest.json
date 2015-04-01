@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "MyAutoAutoSender",
+  "version": "0.0.1",
+  "permissions": ["http://www.myauto.ge/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://www.myauto.ge/*"],
+      "js": [
+        "./jquery-2.1.3.min.js",
+        "./autoSender.js"
+      ],
+      "css": ["./style.css"]
+    }
+  ]
+}
